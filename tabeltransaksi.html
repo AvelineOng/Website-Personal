@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>Home - Atlantic Fishing</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-food.css">
+
+<style>
+.w3-sidebar a {font-family: "Roboto", sans-serif}
+body,h1,h2,h3,h4,h5,h6,.w3-wide {font-family: "Montserrat", sans-serif;}
+</style>
+
+</head>
+
+<body class="w3-content" style="max-width:1800px">
+
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-bar-block w3-food-egg w3-collapse w3-top" style="z-index:3;width:250px" id="mySidebar">
+  <div class="w3-container w3-display-container w3-padding-16">
+    <i onclick="w3_close()" class="fa fa-remove w3-hide-large w3-button w3-display-topright"></i>
+    <a href="home2.html">
+        <img src="gambar\logo.web.png" alt="Logo" style="width: 200px; height: auto;">
+    </a>
+  </div>
+  <div class="w3-padding-16 w3-large w3-text-grey" style="font-weight:bold;">
+    <a href="reel2.html" class="w3-bar-item w3-button">Reel</a>
+    <a href="rod2.html" class="w3-bar-item w3-button">Rod</a>
+    <a href="bait2.html" class="w3-bar-item w3-button">Bait</a>
+    <a href="float2.html" class="w3-bar-item w3-button">Float</a>
+    <a href="hook2.html" class="w3-bar-item w3-button">Hook</a>
+    <a href="line2.html" class="w3-bar-item w3-button">Line</a>
+    <a href="tabeltransaksi.html" class="w3-bar-item w3-button">Transaction</a>
+  </div>
+  
+  <hr>
+  <div class="w3-padding-16 w3-large w3-text-grey" style="font-weight:bold;">
+    <a href="contact2.html" class="w3-bar-item w3-button">Contact</a>
+    <a href="address2.html" class="w3-bar-item w3-button">Address</a>
+    <a href="aboutus2.html" class="w3-bar-item w3-button">About Us</a>
+  </div>
+</nav>
+
+<!-- Top menu on small screens -->
+<header class="w3-bar w3-top w3-hide-large w3-black w3-xlarge">
+  <div class="w3-bar-item w3-padding-24 w3-wide">LOGO</div>
+  <a href="javascript:void(0)" class="w3-bar-item w3-button w3-padding-24 w3-right" onclick="w3_open()"><i class="fa fa-bars"></i></a>
+</header>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:250px">
+
+<header class="w3-container w3-xlarge">
+    <p class="w3-left">
+        TRANSACTION
+    </p>
+</header>
+
+<table class="w3-table-all w3-hoverable " style="margin-left:10px; max-width:1250px;">
+    <thead>
+        <tr class="w3-blue">
+            <th>Date</th>
+            <th>ID Transaction</th>
+            <th>Quantity</th>
+            <th>Total</th>
+            <th>Status</th>
+            <th>Detail</th>
+        </tr>
+    </thead>
+    <tr class="w3-hoverable">
+        <td>08-05-2024</td>
+        <td>AB1001</td>
+        <td>1</td>
+        <td>$50</td>
+        <td>Paid</td>
+        <td><a href="viewdetail.html">View Detail</a></td>
+    </tr>
+    <tr class="w3-hoverable">
+        <td>20-05-2024</td>
+        <td>AR1008</td>
+        <td>1</td>
+        <td>$94</td>
+        <td>Processing</td>
+        <td><a href="viewdetail.html">View Detail</a></td>
+    </tr>
+    <tr class="w3-hoverable">
+        <td>01-06-2024</td>
+        <td>AL2001</td>
+        <td>1</td>
+        <td>$67</td>
+        <td>Delivered</td>
+        <td><a href="viewdetail.html">View Detail</a></td>
+    </tr>
+</table>
+
+<footer>
+    <div style="margin-top: 390px;margin-bottom: 0px;" 
+    class="w3-black w3-center w3-padding-24">© 2024 by Atlantic Fishing</div>
+</footer>
+</div>
+</body>
+
+</html>
